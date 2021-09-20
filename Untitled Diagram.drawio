@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-20T04:58:49.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="LWYIEzCHv56P1dzntbNp" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-20T06:04:27.251Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="1TJ3AgKgLWxeOeHfa5Km" version="15.2.9" type="github" pages="3">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1003" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -388,12 +388,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="svQQ07PL1YLZHIs8_Ds4" name="Page-3">
-    <mxGraphModel dx="825" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1168" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="uUrTwBNfx8E4c2Rx7p4u-0" />
         <mxCell id="uUrTwBNfx8E4c2Rx7p4u-1" parent="uUrTwBNfx8E4c2Rx7p4u-0" />
         <mxCell id="uUrTwBNfx8E4c2Rx7p4u-2" value="Administration" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="uUrTwBNfx8E4c2Rx7p4u-1">
-          <mxGeometry x="50" y="190" width="140" height="104" as="geometry" />
+          <mxGeometry x="30" y="270" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="uUrTwBNfx8E4c2Rx7p4u-3" value="+ field:  id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uUrTwBNfx8E4c2Rx7p4u-2">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -405,19 +405,16 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5GkKDZO-4byVqGXggJ8P-0" value="profile pages" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="uUrTwBNfx8E4c2Rx7p4u-1">
-          <mxGeometry x="280" y="410" width="140" height="104" as="geometry" />
+          <mxGeometry x="280" y="452" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="5GkKDZO-4byVqGXggJ8P-1" value="+ field: id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5GkKDZO-4byVqGXggJ8P-0">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5GkKDZO-4byVqGXggJ8P-2" value="+ field: char(10)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5GkKDZO-4byVqGXggJ8P-0">
+        <mxCell id="5GkKDZO-4byVqGXggJ8P-3" value="+ field: id_project" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5GkKDZO-4byVqGXggJ8P-0">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5GkKDZO-4byVqGXggJ8P-3" value="+ field: id_project" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5GkKDZO-4byVqGXggJ8P-0">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="5GkKDZO-4byVqGXggJ8P-4" value="Manager" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="uUrTwBNfx8E4c2Rx7p4u-1">
-          <mxGeometry x="610" y="260" width="140" height="104" as="geometry" />
+          <mxGeometry x="550" y="294" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="5GkKDZO-4byVqGXggJ8P-5" value="+ field: id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5GkKDZO-4byVqGXggJ8P-4">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -429,7 +426,7 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5GkKDZO-4byVqGXggJ8P-8" value="Designers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="uUrTwBNfx8E4c2Rx7p4u-1">
-          <mxGeometry x="280" y="286" width="140" height="78" as="geometry" />
+          <mxGeometry x="280" y="340" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="5GkKDZO-4byVqGXggJ8P-9" value="+ field: id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5GkKDZO-4byVqGXggJ8P-8">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -438,7 +435,7 @@
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5GkKDZO-4byVqGXggJ8P-16" value="Customers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="uUrTwBNfx8E4c2Rx7p4u-1">
-          <mxGeometry x="40" y="340" width="140" height="78" as="geometry" />
+          <mxGeometry x="30" y="490" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="5GkKDZO-4byVqGXggJ8P-17" value="+ field: ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5GkKDZO-4byVqGXggJ8P-16">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -547,6 +544,9 @@
             <mxPoint x="250" y="330" as="sourcePoint" />
             <mxPoint x="350" y="230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5GkKDZO-4byVqGXggJ8P-70" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;2. Design a database (Draw ERD to show your table relationship including the field of each table) with key constraints:&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;•&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;Administrators can login to manage everything&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;•&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;Managers can login and can work on Projects&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;•&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;Designers can also login and can work on Projects&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;•&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;Customers own Projects&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;•&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;Managers, Designers and Customers have profile pages listing the projects they are related to. Administrator don&#39;t have.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;•&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;Managers can have Designers working for them&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;•&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;Designers only have one Manager at a time and Administrator can change the Manager of the Designer at any time&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;•&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;Managers and Designers who working on a Project is assigned a Role that the Administrator can manage &lt;br&gt;&amp;nbsp; (e.g. Project Champion, Lead Architect, Safety Engineer, etc)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;•&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;Project needs to have rich text as the description&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;•&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;Project needs to be able to have many photos and PDF files&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;•&lt;span&gt;	&lt;/span&gt;Only Managers and Designers who is working on the Project can edit the project (Administrator also can)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uUrTwBNfx8E4c2Rx7p4u-1">
+          <mxGeometry width="660" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
